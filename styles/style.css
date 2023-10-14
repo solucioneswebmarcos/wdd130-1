@@ -1,0 +1,58 @@
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+nav a:hover {
+    background-color: black;
+    color: rgb(242, 244, 246);
+}
+div {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+main section{
+    margin: 0 auto;
+    text-align: center; 
+}
+nav {
+    margin: 0 auto;
+    text-align: center; 
+    color: white;
+}
+#hero-msg h1{
+    margin: 0 auto;
+    text-align: center; 
+}
+#hero-msg h4{
+    margin: 0 auto;
+    text-align: center; 
+}
+.button-box{
+    margin: 0 auto;
+    text-align: center; 
+}
+#background {
+    height: 725px;
+    background-color: rgb(183, 109, 19);
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+body{
+    background-color: #fcfbfb ;
+}
+header{
+    background-color: rgb(85, 79, 79);
+}
+.msg{
+    background-color: steelblue;
+    color: white;
+}
+.icon {
+    width: 80px;
+}
