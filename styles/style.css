@@ -1,14 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital@1&display=swap');
+/*:root{
+--heading-font: "Dancing Script";
+--paragraph-font: Roboto, Helvetica, sans-serif;
+}*/
+.home-title {
+    font-family: "Dancing Script",'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.book , .join {
+    font-family:  Roboto, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+.rivers-card, .camping-card, .rapids-cards{
+    margin: 200px 0;
+} 
+footer{
+    margin-top: 50px;
+}
+.msg {
+    font-family:  Roboto, Helvetica, sans-serif;
+    font: size 1.5em;
+    padding: 35px;
+}
+p {
+    font-family:  Roboto, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 15px;
+}
+#logo_link{
+    padding-top: 5px;
+    }
+footer, .social, img {
+    padding-top: 15px;
+}
 nav, footer {
-    background-color: steelblue;
+    background-color: rgb(152, 156, 159);
     color: white;
     padding: 10px;
+}
+nav a{
+    padding: 35%;
 }
 footer p {
     font-size: 20px;
     margin: 20px auto;
 }
 nav a:hover {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: rgb(242, 244, 246);
 }
 div {
@@ -18,6 +63,9 @@ div {
 main section{
     margin: 0 auto;
     text-align: center; 
+}
+main section img{
+    box-sizing: border-box;
 }
 nav {
     margin: 0 auto;
@@ -45,14 +93,23 @@ footer p a:hover {
 }
 body{
     background-color: #fcfbfb ;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin:0;
+    padding:0;
+}
+h2 {
+    margin: 0;
 }
 header{
     background-color: rgb(85, 79, 79);
+    font-family: "Dancig Script";
 }
 .msg{
-    background-color: steelblue;
+    background-color: rgb(152, 156, 159);
     color: white;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
