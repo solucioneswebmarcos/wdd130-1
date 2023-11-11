@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital@1&display=swap');
 
 #content {
@@ -6,26 +7,28 @@
 }
 .home-title {
     font-family: "Dancing Script",'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 10px;
     color: white;
 }
 .book , .join {
     font-family:  Roboto, Helvetica, sans-serif;
     font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
+    padding: 10px 30px;
+    margin-top: 2em;
     border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #6f7364;
+    opacity: .6;
+    
 }
+.book:hover, .join:hover {
+    background-color: black;
+    color: white;
+} 
 .card-img, .mountains {
     width: 100%;    
-}
-.hero-box {
-    width: 100%;
-    margin: 0;
-}
-.hero-msg {
-    align-items: center;   
 }
 .card-img{
     border: 10px solid #d9c2a3;
@@ -54,10 +57,12 @@ footer{
 }
 .msg {
     font-family:  Roboto, Helvetica, sans-serif;
-    font-size:  1.5em;
+    font-size:  1.2em;
     padding: 35px;
+    justify-content: space-around;
+    align-items: center;
 }
-p {
+.p {
     font-family:  Roboto, Helvetica, sans-serif;
     font-size: 2em;
     padding: 15px;
@@ -67,7 +72,7 @@ p {
     justify-self: center;
     align-self: center;
     }
-footer, .social, img {
+footer, .social, .img {
     padding-top: 15px;
 }
 footer {
@@ -76,15 +81,18 @@ footer {
     padding: 10px;
 }
 nav a{
-    padding: 35%;
+    padding: 35px;
+    text-decoration: none;
+    color: white;
 }
 footer p {
-    font-size: 20px;
+    font-size: 1.2em;
     margin: 20px auto;
 }
 nav a:hover {
-    background-color: rgb(39, 55, 39);
+    background-color: black;
     color: rgb(242, 244, 246);
+
 }
 main section{
     margin: 0 auto;
@@ -136,6 +144,7 @@ h2 {
 header{
     background-color: rgb(85, 79, 79);
     font-family: "Dancig Script";
+    opacity: .6;
 }
 .msg{
     background-color: rgb(152, 156, 159);
@@ -253,4 +262,63 @@ main .home-grid{
         margin-top: 25px;
     }
 }
-            
+/*css page 2*/
+#hook-msg h1{
+    margin: 0 auto;
+    text-align: left; 
+    color: #fb8500;
+    margin-left: 1em;
+}
+#hook-msg h4{
+    margin: 0 auto;
+    text-align: left; 
+    justify-self: center;
+    align-self: center;
+    color: #fb8500;
+    margin-left: 3em;
+}
+#hook-img {
+    width: 100%;
+    height: 80%;
+} 
+#hook {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -100px;
+}
+#hook-msg {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hook-box {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    z-index: -1;
+}     
+.river-canyon-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}    
+.river-card {
+    grid-column: 2/3;
+    grid-row: 1/2;
+} 
+.river-para {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.canyon-card {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.canyon-para {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.canyon-img, .river-card{
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
