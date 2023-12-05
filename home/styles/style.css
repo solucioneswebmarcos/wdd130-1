@@ -18,6 +18,10 @@ nav {
     align-self: center;
     margin-left: 5em;
 }
+img {
+    display: block;
+    margin: 0 auto;
+}
 h2 {
     font-family: "Dancing Script",'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
