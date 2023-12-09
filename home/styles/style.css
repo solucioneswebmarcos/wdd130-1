@@ -156,27 +156,3 @@ footer p{
     align-items: center;
     color: white;
 }
-@media screen and (max-width: 900px) {
-    .home-grid, proyects-grid, goals-grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    .keyboard-card, .keyboardserver-card, .rapids-card, .code-cards, .devices-card, .background-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
-    footer {
-        margin-top: 25px;
-    }
-}
