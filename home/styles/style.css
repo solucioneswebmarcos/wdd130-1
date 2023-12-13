@@ -109,7 +109,6 @@ footer p{
 .proyects-grid {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-row: repeat(3, 1fr);
 }
 .user-card {
     width: 640px;
